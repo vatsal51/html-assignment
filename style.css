@@ -1,0 +1,225 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f2f1ff;
+  font-size: 16px;
+}
+
+.card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.fs-22 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.fs-30 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fs-50 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .wrapper-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 900px;
+          flex: 0 1 900px;
+}
+
+.wrapper .wrapper-1 .buy-2 .how-to {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .wrapper-1 .buy-2 .how-to .video {
+  background: url(./bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 390px;
+          flex: 0 1 390px;
+  height: 210px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .wrapper-1 .buy-2 .how-to .video p {
+  color: #ffffff;
+}
+
+.wrapper .wrapper-1 .buy-2 .how-to .video .right-arrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid green;
+}
+
+.wrapper .wrapper-1 .buy-2 .how-to .how-to-text {
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.wrapper .wrapper-1 .buying-guide {
+  margin-top: 20px;
+}
+
+.wrapper .wrapper-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 600px;
+          flex: 0 1 600px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.wrapper .wrapper-2 .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .wrapper-2 .location a {
+  color: #8b37f7;
+}
+
+.wrapper .wrapper-2 .currency {
+  border: 1px solid #dfe2e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.wrapper .wrapper-2 .currency .currency-select p {
+  padding: 0;
+}
+
+.wrapper .wrapper-2 .currency .currency-select input {
+  margin-left: 15px;
+  border-bottom: 1px solid #dfe2e7 !important;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.wrapper .wrapper-2 .currency .currency-select input:focus,
+.wrapper .wrapper-2 .currency .currency-select input :focus-visible {
+  outline: none;
+}
+
+.wrapper .wrapper-2 .currency select {
+  border: none !important;
+  border-bottom: 1px solid #dfe2e7;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-width: 0;
+}
+
+.wrapper .wrapper-2 .currency select:focus-visible {
+  outline: none;
+}
+
+.wrapper .wrapper-2 .buy-button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background: linear-gradient(126deg, #415ffc 40%, #8255ec 50%);
+  background-size: 100% 100%;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px 0;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.wrapper .wrapper-2 .buy-button:hover {
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
